@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Baloo 2', cursive;
+}
+
+/* Regular Weight */
+@font-face {
+    font-family: "Baloo 2";
+    src: url("./fonts/Baloo2-Regular.ttf");
+}
+
+/* SemiBold (600) Weight */
+@font-face {
+    font-family: "Baloo 2";
+    src: url("./fonts/Baloo2-Bold.ttf");
+    font-weight: bold;
+}
+
+/* Bold Weight */
+@font-face {
+    font-family: "Baloo 2";
+    src: url("./fonts/Baloo2-Medium.ttf");
+    font-weight: 500;
+}
+
+/* Bold Weight */
+@font-face {
+    font-family: "Baloo 2";
+    src: url("./fonts/Baloo2-SemiBold.ttf");
+    font-weight: 600;
+}
+
+/* Bold Weight */
+@font-face {
+    font-family: "Karla";
+    src: url("./fonts/Karla-VariableFont_wght.ttf");
+}

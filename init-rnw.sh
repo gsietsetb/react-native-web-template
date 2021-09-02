@@ -1,10 +1,11 @@
 #!/bin/bash
 name=${1:-test}
+cd ..
 react-native init $name
 echo "app created successfully"
-cp /Users/guillermosierraaiello/dev/dgFolio/config-overrides.js $name
-cp -r /Users/guillermosierraaiello/dev/dgFolio/src $name
-cp -r /Users/guillermosierraaiello/dev/dgFolio/public $name
+cp /config-overrides.js $name
+cp -r /src $name
+cp -r /public $name
 echo "added src, public & config overr file"
 cd $name
 yarn add react-dom react-native-web consistencss moment lodash mobx react-native-web-hover react-native-web-linear-gradient
